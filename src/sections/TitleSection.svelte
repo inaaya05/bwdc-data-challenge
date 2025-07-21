@@ -1,8 +1,10 @@
 <script>
+// @ts-nocheck
+
     import TitleCard from "../lib/TitleCard.svelte";
     
-    const title = "Welcome to the KWK Scrollytelling Template";
-    const subtitle = "A journey through data, creativity, and code";
+    const title = "Education in the United States";
+    const subtitle = "Exploring the rates of education across races in the US";
 </script>
 
 <TitleCard {title} {subtitle} />

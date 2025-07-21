@@ -10,13 +10,14 @@
 
 <style>
     .article-text {
-        margin: 50vh auto;
+        margin: 15vh auto;
         width: 50%;
-        background-color: #ff99fc;
-        color: #007052;
-        border: solid #8427c9 3px;
+        background-color: #BBE6E4;
+        color: #084B83;
+        border: solid #084B83 3px;
         border-radius: 20px;
         padding: 20px;
-        box-shadow: 16px 16px #8aa6df;
+        box-shadow: 10px 10px #42BFDD;
+        text-align:center;
     }
 </style>

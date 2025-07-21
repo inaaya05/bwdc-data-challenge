@@ -6,7 +6,7 @@
 <div>
     <Scroller layout="right">
         {#snippet sticky()}
-            <img class="duck-img" src="duck.png" alt="KWK rubber duck!" />
+            <img class="us-news-data" src="USNEWS.png" alt="US News Data on 20-year average tuition growth among national universities" />
         {/snippet}
 
         {#snippet scrolly()}
@@ -23,8 +23,8 @@
 </div>
 
 <style>
-    .duck-img {
-        width: 25%;
+    .us-news-data {
+        width: 95%;
         margin: 0px auto;
     }
 </style>

@@ -1,145 +1,52 @@
 <script>
-    import * as Highcharts from "highcharts";
-    import "highcharts/modules/exporting";
-    import { Chart } from "@highcharts/svelte";
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
-
-    let options = {
-        chart: {
-            type: "pie",
-        },
-        title: {
-            text: "An Example Pie Chart",
-        },
-        plotOptions: {
-            pie: {
-                allowPointSelect: true,
-                dataLabels: [
-                    {
-                        enabled: true,
-                        distance: 20,
-                    },
-                    {
-                        enabled: true,
-                        distance: -40,
-                        format: "{point.percentage:.1f}%",
-                        style: {
-                            fontSize: "1.2em",
-                            textOutline: "none",
-                        },
-                        filter: {
-                            operator: ">",
-                            property: "percentage",
-                            value: 10,
-                        },
-                    },
-                ],
-            },
-        },
-        series: [
-            {
-                name: "Group",
-                data: [
-                    {
-                        name: "Group 1",
-                        y: 151,
-                    },
-                    {
-                        name: "Group 2",
-                        sliced: true,
-                        selected: true,
-                        y: 180,
-                    },
-                    {
-                        name: "Group 3",
-                        y: 32,
-                    },
-                    {
-                        name: "Group 4",
-                        y: 103,
-                    },
-                    {
-                        name: "Group 5",
-                        y: 77,
-                    },
-                ],
-            },
-        ],
-    };
 </script>
 
-<div>
+<div id="right-align">
     <Scroller layout="right">
         {#snippet sticky()}
-            <div class="chart">
-                <Chart {options} highcharts={Highcharts} />
-            </div>
-            <p>
-                Here's an example chart using
-                <a href="https://www.highcharts.com/">Highcharts</a>!
-            </p>
-            <p>
-                📈 <strong>Highcharts</strong> is a super-flexible library for
-                creating all kinds of charts. See demos of different chart types
-                <a href="https://www.highcharts.com/demo">here</a>.
-            </p>
-            <p>
-                Since we're using Highcharts through Svelte, the syntax is a
-                little different from what you might see in the demos. But all
-                of Highcharts' functionality is available through the Highcharts
-                for Svelte package.
-            </p>
-            <p>
-                The configuration is done through the
-                <code>options</code> json object passed to the chart, which you'll
-                see in the source code for this template.
-            </p>
-            <p>
-                Use the
-                <a href="https://api.highcharts.com/highcharts/"
-                    >API reference</a
-                >
-                to understand what each element in the <code>options</code> object
-                does.
-            </p>
+            <img class="blueshelf" href="blueshelf.jpg" alt="Blue book shelf"> 
         {/snippet}
 
         {#snippet scrolly()}
             <ArticleText>
-                <strong>Welcome to the KWK Data Scrollytelling Template!</strong
-                >
+                Education in the US is a tricky pursuit.
             </ArticleText>
 
             <ArticleText>
-                This is a <strong>basic example</strong> of how you might create
-                a scrollytelling piece using Svelte and Highcharts.
+                There are many barriers and obstacles to higher education...
             </ArticleText>
 
             <ArticleText>
-                You can use this template as a <strong>starting point</strong>
-                for your project.
-                <br /><br />
-                Or, if you want to build something from scratch, you can use it as
-                a <strong>reference</strong> for specific functionality.
+                <strong>🚧Barrier🚧</strong>
+                <br/><br/>
+                <strong>Financial Means</strong>
+                <br/><br/>
+                We all know that college is expensive, but it's more than just tuition that costs money, books, housing, food, it all adds up. Without the means to pursue such a costly endeavor, it is difficult to even go for a degree.
             </ArticleText>
 
             <ArticleText>
-                This is <strong>just one way</strong> that scrollytelling can
-                look.
-                <br /><br />
-                <strong>
-                    If you use this template, be sure to modify it and make it
-                    your own!
-                </strong>
+                <strong>🚧Barrier🚧</strong>
+                <br/><br/>
+                <strong>Lack of Representation</strong>
+                <br/><br/>
+                There's more than just being able to pay for college, there's also the mental aspect of it all. Growing up, if you don't see others who look like you in fields that require lots of education, you may not feel like you belong in spaces that require lots of education. This discourages many from pursuing higher education.
+            </ArticleText>
+            <ArticleText>
+                <strong>🚧Barrier🚧</strong>
+                <br/><br/>
+                <strong>Inadequate Preparation</strong>
+                <br/><br/>
+                Some things are especially out of our control. It's not always about making enough money in time to pay the tuition bill or reminding yourself that you can be the representation you wished you would've had in your field of choice, it might be that growing up, you were at a school that did not have the resources to prepare you for such rigorous academic work, and that can lead to failing out or losing any semblance of motivation to continue.
             </ArticleText>
         {/snippet}
     </Scroller>
 </div>
 
 <style>
-    .chart {
-        width: 90%;
+    .blueshelf{
+        width: 95%;
         margin: 0px auto;
     }
 </style>

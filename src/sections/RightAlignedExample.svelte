@@ -6,7 +6,7 @@
 <div id="right-align">
     <Scroller layout="right">
         {#snippet sticky()}
-            <img class="blueshelf" href="blueshelf.jpg" alt="Blue book shelf"> 
+            <img class="blueshelf" src="blueshelf.jpg" alt="Blue book shelf"> 
         {/snippet}
 
         {#snippet scrolly()}

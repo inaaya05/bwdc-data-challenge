@@ -1,9 +1,9 @@
 {
-  "name": "kwk-scrollytelling-template",
+  "name": "bwdc-data-challenge",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://inaaya05.github.io/bwdc-data-challenge/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,4 +17,5 @@
     "svelte": "^5.28.1",
     "vite": "^6.3.5"
   }
+  "homepage": "https://inaaya05.github.io/bwdc-data-challenge/"
 }

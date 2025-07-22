@@ -32,7 +32,7 @@
     <Scroller layout="left">
         {#snippet sticky()}
             <div>
-                <img class="action" src="action.png" alt="people with blue shirts holding hands">
+                <img class="action" src="action.png" alt="People with shirts of different shades of blue holding each other with their backs facing the viewer.">
             </div>
         {/snippet}
 

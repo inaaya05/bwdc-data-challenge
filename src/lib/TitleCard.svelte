@@ -1,5 +1,5 @@
 <script>
-    let { title, subtitle } = $props();
+    let { title, subtitle} = $props();
 </script>
 
 <div class="title-card">
@@ -34,13 +34,13 @@
     h1 {
         font-size: 3rem;
         margin: 0;
-        color: #084b83;
+        color: #084B83;
         text-shadow: 1px 1px 0 #42bfdd;
     }
 
     p {
         font-size: 1.3rem;
-        color: #084b83;
+        color: #084B83;
         margin-top: 1rem;
     }
 

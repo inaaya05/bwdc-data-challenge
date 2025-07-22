@@ -8,7 +8,7 @@
 <div>
     <Scroller layout="left">
         {#snippet sticky()}
-            <img class = "edu" src="Sheets_BWDC.png" alt="BWDC Undergrad Enrollment Rates By Race">
+            <img class = "edu" src="Sheets_BWDC.png" alt="BWDC Undergrad Enrollment Rates By Race Chart">
         {/snippet}
 
         {#snippet scrolly()}

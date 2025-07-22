@@ -8,7 +8,7 @@
 <div>
     <Scroller layout="left">
         {#snippet sticky()}
-            <img class = "girl" src="girlschool.jpg" alt="Girl who is ready to take on her education!">
+            <img class = "girl" src="girlschool.jpg" alt="Young girl who is ready to take on her education!">
         {/snippet}
 
         {#snippet scrolly()}

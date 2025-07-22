@@ -6,7 +6,7 @@
 <div>
     <Scroller layout="right">
         {#snippet sticky()}
-            <img class="us-news-data" src="sheets-usnews.png" alt="US News Data on 20-year average tuition growth among national universities" />
+            <img class="us-news-data" src="sheets-usnews.png" alt="US News Data on 20-year average tuition growth among national universities chart" />
         {/snippet}
 
         {#snippet scrolly()}

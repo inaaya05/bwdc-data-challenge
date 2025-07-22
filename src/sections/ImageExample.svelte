@@ -11,13 +11,10 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <strong>
-                    Your final project might look totally different from this
-                    template!
-                </strong>
+                In this graph from <a href="https://www.usnews.com/education/best-colleges/paying-for-college/articles/see-20-years-of-tuition-growth-at-national-universities">US News</a> we can even see that as time has gone on, the cost of college tuition alone has increased significantly.
             </ArticleText>
-
-            <ArticleText>It's yours to create.</ArticleText>
+            <ArticleText>In fact, tuition and fees at private, out-of-state public, and in-state public universities have risen 126%, 112%, and 133%, respectively.</ArticleText>
+            <ArticleText>If these numbers are adjusted for inflation, they've risen 41% (private universities), 32% (out-of-state public universities), and 45% (in-state public universities).</ArticleText>
         {/snippet}
     </Scroller>
 </div>
